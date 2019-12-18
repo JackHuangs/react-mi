@@ -1,0 +1,9 @@
+.cate-product-item {
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.cate-product-item img {
+  width: 100%;
+}

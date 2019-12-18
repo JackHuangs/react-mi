@@ -1,0 +1,13 @@
+.recommend {
+  display: flex;
+  padding: 10px 0;
+}
+
+.recommend > div {
+  flex: 1;
+}
+
+.recommend img {
+  width: 100%;
+  vertical-align: middle;
+}

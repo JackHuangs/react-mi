@@ -1,0 +1,18 @@
+.profile-menu {
+  background: #fff;
+}
+
+.profile-menu-logo img {
+  width: 30px;
+  padding: 0 20px;
+}
+
+.profile-menu-more img {
+  width: 20px;
+  padding: 0 5px;
+}
+
+.profile-menu-title {
+  padding: 20px 0;
+  width: 100%;
+}

@@ -1,0 +1,80 @@
+/* Product component css */
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product-info {
+  padding: 10px 0;
+}
+
+.product-info h3,
+.product-both-side-info h3 {
+  font: 17px normal;
+}
+
+.product-desc {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 5px 0;
+}
+
+.product-price {
+  padding: 5px 0;
+}
+
+.product-price > span:first-child {
+  color: #f00;
+  font-size: 16px;
+}
+
+.product-price > span:last-child {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.product-buy {
+  padding: 0 2rem;
+}
+
+.product-buy .am-button {
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+/* ProduceMore component css */
+.product-more {
+  border-top: 1px solid #ccc;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 0;
+  background: #fff;
+}
+
+/* ProductBothSide component css */
+.product-both-side > div {
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.product-both-side-img > img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.product-both-side-info {
+  box-sizing: border-box;
+  padding: 2.5rem 1rem 0 2rem;
+}
+
+.both-desc {
+  padding: 10px 0 20px 0;
+}

@@ -1,0 +1,9 @@
+.back-top {
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+}
+
+.back-top img {
+  width: 40px;
+}

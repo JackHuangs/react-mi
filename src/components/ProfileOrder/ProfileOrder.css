@@ -1,0 +1,28 @@
+.profile-order {
+  background: #fff;
+}
+
+.profile-order-title {
+  padding: 15px 0 15px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-order-more img {
+  width: 20px;
+  padding: 0 5px;
+}
+
+.profile-order-type {
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.profile-order-type > div {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-order-type img {
+  width: 30px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,27 @@
+.top-bar {
+  display: flex;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.top-bar-logo {
+  flex: 2;
+}
+
+.top-bar-logo img {
+  width: 60%;
+  margin-top: 12px;
+}
+
+.top-bar-search {
+  flex: 12;
+}
+
+.top-bar-profile {
+  flex: 2;
+}
+
+.top-bar-profile img {
+  width: 50%;
+  margin-top: 10px;
+}

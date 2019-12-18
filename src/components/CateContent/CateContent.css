@@ -1,0 +1,79 @@
+.cate-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  display: flex;
+  overflow: hidden;
+  background: #fff;
+}
+
+.cate-left {
+  width: 25%;
+  height: calc(100vh - 98px);
+  text-align: center;
+  font-size: 14px;
+  border-right: 1px solid #efefef;
+  margin-top: 10px;
+}
+
+.cate-left-list {
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.cate-right {
+  flex: 1;
+  height: calc(100vh - 98px);
+}
+
+.cate-right-content {
+  padding: 0 15px;
+}
+
+.cate-right-title {
+  text-align: center;
+  position: relative;
+  padding: 20px 0;
+}
+
+.cate-right-title span::before {
+  content: "";
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  border-top: 1px solid #e0e0e0;
+}
+
+.cate-right-title span::after {
+  content: "";
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  border-top: 1px solid #e0e0e0;
+}
+
+.cate-right-list > div {
+  width: 33%;
+  min-width: 33%;
+  max-width: 33%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.cate-right-product img {
+  width: 60%;
+}
+
+.cate-right-product p {
+  font-size: 12px;
+  margin-top: 15px;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

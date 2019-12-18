@@ -1,0 +1,15 @@
+.hot-product-list {
+  padding: 0 5px;
+  background: #fff;
+}
+
+.hot-product-list > div {
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+.hot-product-list > div:nth-child(odd) {
+  padding-right: 5px;
+}

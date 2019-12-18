@@ -1,0 +1,31 @@
+.detail-comment {
+  background: #fafafa;
+  border-radius: 0.5rem;
+  margin: 0 20px;
+  padding: 10px 20px;
+}
+
+.detail-comment-pto img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.detail-comment p {
+  line-height: 18px;
+}
+
+.detail-comment-content {
+  margin: 10px 0 30px 0;
+}
+
+.detail-comment-img > div {
+  width: 33%;
+  min-width: 33%;
+  max-width: 33%;
+}
+
+.detail-comment-img img {
+  width: 90%;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,67 @@
+.detail {
+  background: #fff;
+}
+
+.detail-info {
+  padding: 20px 15px;
+}
+
+.detail-info h2 {
+  font: 18px normal;
+}
+
+.detail-desc {
+  color: rgba(0, 0, 0, 0.54);
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.detail-price {
+  color: #ff6700;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.detail-attr-wrapper {
+  width: 100%;
+}
+
+.detail-attr {
+  margin-top: 10px;
+  display: flex;
+  font-size: 13px;
+  overflow-x: scroll;
+  padding-bottom: 30px;
+}
+
+.detail-attr > div {
+  width: 25%;
+  min-width: 25%;
+  max-width: 25%;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.detail-attr > div:last-child {
+  border-right: none;
+}
+
+.detail-attr img {
+  width: 25px;
+}
+
+.detail-attr p {
+  overflow: hidden;
+  line-height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.detail-specification {
+  background: #fafafa;
+  padding: 0 10px;
+}
+
+.detail-specification > div {
+  padding: 10px 0;
+}
